@@ -1,0 +1,3906 @@
+{
+    "ZeusLightningDebuff": {
+        "internal": "ZeusLightningDebuff",
+        "name": "Static Discharge",
+        "short_descr": "Your lightning effects also make foes Jolted.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_12",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "PerfectDashBoltTrait",
+            "RetaliateWeaponTrait",
+            "ZeusRangedTrait",
+            "ZeusRushTrait",
+            "ZeusSecondaryTrait",
+            "ZeusShoutTrait",
+            "ZeusWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "PerfectDashBoltTrait",
+            "RetaliateWeaponTrait",
+            "ShieldLoadAmmo_ZeusRangedTrait",
+            "ZeusRangedTrait",
+            "ZeusRushTrait",
+            "ZeusSecondaryTrait",
+            "ZeusShoutTrait",
+            "ZeusWeaponTrait"
+        ],
+        "exclusive_with": []
+    },
+    "AthenaRushTrait": {
+        "internal": "AthenaRushTrait",
+        "name": "Divine Dash",
+        "short_descr": "Your Dash deals damage and can Deflect.",
+        "gods": [
+            "Athena"
+        ],
+        "duo": false,
+        "icon": "Boon_Athena_03",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ShieldLoadAmmo_ZeusRangedTrait": {
+        "internal": "ShieldLoadAmmo_ZeusRangedTrait",
+        "name": "Thunder Flare",
+        "short_descr": "Your Cast causes a lightning bolt to strike nearby foes.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_05",
+        "legendary": false,
+        "extra_req": "ShieldLoadAmmoTrait",
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ArtemisRushTrait": {
+        "internal": "ArtemisRushTrait",
+        "name": "Hunter Dash",
+        "short_descr": "Your Dash-Strike deals more damage.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_03",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": [
+            "GunLoadedGrenadeTrait"
+        ]
+    },
+    "IceStrikeArrayTrait": {
+        "internal": "IceStrikeArrayTrait",
+        "name": "Ice Wine",
+        "short_descr": "Your Cast blasts an area with freezing Festive Fog that inflicts Chill.",
+        "gods": [
+            "Demeter",
+            "Dionysus"
+        ],
+        "duo": true,
+        "icon": "Demeter_Dionysus_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "DemeterRushTrait",
+                "DemeterSecondaryTrait",
+                "DemeterShoutTrait",
+                "DemeterWeaponTrait"
+            ],
+            [
+                "DionysusRangedTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "DemeterRushTrait",
+                "DemeterSecondaryTrait",
+                "DemeterShoutTrait",
+                "DemeterWeaponTrait"
+            ],
+            [
+                "DionysusRangedTrait",
+                "ShieldLoadAmmo_DionysusRangedTrait"
+            ]
+        ],
+        "exclusive_with": [
+            "BlizzardOrbTrait"
+        ]
+    },
+    "ShieldHitTrait": {
+        "internal": "ShieldHitTrait",
+        "name": "Divine Protection",
+        "short_descr": "You have a barrier that negates an instance of damage.",
+        "gods": [
+            "Athena"
+        ],
+        "duo": false,
+        "icon": "Boon_Athena_10",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AthenaShieldTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AthenaShieldTrait"
+        ],
+        "exclusive_with": []
+    },
+    "ZeroAmmoBonusTrait": {
+        "internal": "ZeroAmmoBonusTrait",
+        "name": "Ravenous Will",
+        "short_descr": "When you have no Bloodstones, take #% less damage and deal more.",
+        "gods": [
+            "Demeter"
+        ],
+        "duo": false,
+        "icon": "Boon_Demeter_11",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AthenaRangedTrait": {
+        "internal": "AthenaRangedTrait",
+        "name": "Phalanx Shot",
+        "short_descr": "Your Cast damages foes in a small area, and can Deflect.",
+        "gods": [
+            "Athena"
+        ],
+        "duo": false,
+        "icon": "Boon_Athena_02",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": [
+            "ShieldLoadAmmoTrait"
+        ]
+    },
+    "StatusImmunityTrait": {
+        "internal": "StatusImmunityTrait",
+        "name": "Unshakable Mettle",
+        "short_descr": "You cannot be stunned, and resist some damage from Bosses.",
+        "gods": [
+            "Athena",
+            "Poseidon"
+        ],
+        "duo": true,
+        "icon": "Poseidon_Athena_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AthenaRangedTrait",
+                "AthenaSecondaryTrait",
+                "AthenaShoutTrait",
+                "AthenaWeaponTrait"
+            ],
+            [
+                "PoseidonRangedTrait",
+                "PoseidonSecondaryTrait",
+                "PoseidonShoutTrait",
+                "PoseidonWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AthenaRangedTrait",
+                "AthenaSecondaryTrait",
+                "AthenaShoutTrait",
+                "AthenaWeaponTrait",
+                "ShieldLoadAmmo_AthenaRangedTrait"
+            ],
+            [
+                "PoseidonRangedTrait",
+                "PoseidonSecondaryTrait",
+                "PoseidonShoutTrait",
+                "PoseidonWeaponTrait",
+                "ShieldLoadAmmo_PoseidonRangedTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "TriggerCurseTrait": {
+        "internal": "TriggerCurseTrait",
+        "name": "Merciful End",
+        "short_descr": "Your abilities that can Deflect immediately activate Doom effects.",
+        "gods": [
+            "Ares",
+            "Athena"
+        ],
+        "duo": true,
+        "icon": "Athena_Ares_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AresSecondaryTrait",
+                "AresWeaponTrait"
+            ],
+            [
+                "AthenaSecondaryTrait",
+                "AthenaWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AresSecondaryTrait",
+                "AresWeaponTrait"
+            ],
+            [
+                "AthenaSecondaryTrait",
+                "AthenaWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "AmmoReloadTrait": {
+        "internal": "AmmoReloadTrait",
+        "name": "Auto Reload",
+        "short_descr": "You regenerate Bloodstones faster.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_03",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AphroditeRushTrait": {
+        "internal": "AphroditeRushTrait",
+        "name": "Passion Dash",
+        "short_descr": "Your Dash deals damage where you end up, inflicting Weak.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_03",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "PoseidonShoutTrait": {
+        "internal": "PoseidonShoutTrait",
+        "name": "Poseidon's Aid",
+        "short_descr": "Your Call makes you surge into foes while Impervious for # Sec.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_04",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ShieldLoadAmmo_AresRangedTrait": {
+        "internal": "ShieldLoadAmmo_AresRangedTrait",
+        "name": "Slicing Flare",
+        "short_descr": "Your Cast sends a large Blade Rift hurtling ahead for a brief time.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_02",
+        "legendary": false,
+        "extra_req": "ShieldLoadAmmoTrait",
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "DemeterShoutTrait": {
+        "internal": "DemeterShoutTrait",
+        "name": "Demeter's Aid",
+        "short_descr": "Your Call creates a winter vortex that grows over # Sec., inflicting Chill.",
+        "gods": [
+            "Demeter"
+        ],
+        "duo": false,
+        "icon": "Boon_Demeter_04",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ZeusRushTrait": {
+        "internal": "ZeusRushTrait",
+        "name": "Thunder Dash",
+        "short_descr": "Your Dash causes a lightning bolt to strike nearby foes.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_06",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "RapidCastTrait": {
+        "internal": "RapidCastTrait",
+        "name": "Flurry Cast",
+        "short_descr": "Hold Cast to fire in rapid succession.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_02",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": [
+            "BowLoadAmmoTrait",
+            "ShieldLoadAmmoTrait"
+        ]
+    },
+    "PoisonTickRateTrait": {
+        "internal": "PoisonTickRateTrait",
+        "name": "Curse of Nausea",
+        "short_descr": "Your Hangover effects deal damage faster.",
+        "gods": [
+            "Ares",
+            "Dionysus"
+        ],
+        "duo": true,
+        "icon": "Dionysus_Ares_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AresRetaliateTrait",
+                "AresSecondaryTrait",
+                "AresWeaponTrait"
+            ],
+            [
+                "DionysusRushTrait",
+                "DionysusSecondaryTrait",
+                "DionysusShoutTrait",
+                "DionysusWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AresRetaliateTrait",
+                "AresSecondaryTrait",
+                "AresWeaponTrait"
+            ],
+            [
+                "DionysusRushTrait",
+                "DionysusSecondaryTrait",
+                "DionysusShoutTrait",
+                "DionysusWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "DoorHealTrait": {
+        "internal": "DoorHealTrait",
+        "name": "After Party",
+        "short_descr": "If your Health is low after Encounter(s), restore to the threshold.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_10",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "DionysusWeaponTrait": {
+        "internal": "DionysusWeaponTrait",
+        "name": "Drunken Strike",
+        "short_descr": "Your Attack inflicts Hangover.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_01",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "DionysusPoisonPowerTrait": {
+        "internal": "DionysusPoisonPowerTrait",
+        "name": "Bad Influence",
+        "short_descr": "Deal more damage while # or more foes are Hangover-afflicted.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_09",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "DionysusRushTrait",
+            "DionysusSecondaryTrait",
+            "DionysusShoutTrait",
+            "DionysusWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "DionysusRushTrait",
+            "DionysusSecondaryTrait",
+            "DionysusShoutTrait",
+            "DionysusWeaponTrait"
+        ],
+        "exclusive_with": []
+    },
+    "DionysusShoutTrait": {
+        "internal": "DionysusShoutTrait",
+        "name": "Dionysus' Aid",
+        "short_descr": "Your Call inflicts Hangover on foes all around you for # Sec.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_04",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "DionysusDefenseTrait": {
+        "internal": "DionysusDefenseTrait",
+        "name": "High Tolerance",
+        "short_descr": "You take less damage while standing in Festive Fog.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_11",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "DionysusRangedTrait"
+        ],
+        "nonorm_prereq_data": [
+            "DionysusRangedTrait",
+            "ShieldLoadAmmo_DionysusRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "DemeterRetaliateTrait": {
+        "internal": "DemeterRetaliateTrait",
+        "name": "Frozen Touch",
+        "short_descr": "After you take damage, damage and completely Chill your foe.",
+        "gods": [
+            "Demeter"
+        ],
+        "duo": false,
+        "icon": "Boon_Demeter_13",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AresWeaponTrait": {
+        "internal": "AresWeaponTrait",
+        "name": "Curse of Agony",
+        "short_descr": "Your Attack inflicts Doom.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_01",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AthenaShoutTrait": {
+        "internal": "AthenaShoutTrait",
+        "name": "Athena's Aid",
+        "short_descr": "Your Call briefly makes you Impervious and Deflect all attacks.",
+        "gods": [
+            "Athena"
+        ],
+        "duo": false,
+        "icon": "Boon_Athena_04",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AphroditeSecondaryTrait": {
+        "internal": "AphroditeSecondaryTrait",
+        "name": "Heartbreak Flourish",
+        "short_descr": "Your Special deals more damage and inflicts Weak.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_00",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "HermesShoutDodge": {
+        "internal": "HermesShoutDodge",
+        "name": "Second Wind",
+        "short_descr": "After using Call, gain Dodge chance and move speed for # Sec.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_12",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "LastStandDamageBonusTrait": {
+        "internal": "LastStandDamageBonusTrait",
+        "name": "Blood Frenzy",
+        "short_descr": "After using Death Defiance, deal more damage that Encounter(s).",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_14",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ZeusBoltAoETrait": {
+        "internal": "ZeusBoltAoETrait",
+        "name": "High Voltage",
+        "short_descr": "Your lightning bolt effects deal damage in a larger area.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_10",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "ZeusRangedTrait",
+            "ZeusRushTrait",
+            "ZeusSecondaryTrait",
+            "ZeusShoutTrait"
+        ],
+        "nonorm_prereq_data": [
+            "ShieldLoadAmmo_ZeusRangedTrait",
+            "ZeusRushTrait",
+            "ZeusSecondaryTrait",
+            "ZeusShoutTrait"
+        ],
+        "exclusive_with": []
+    },
+    "PoseidonRangedTrait": {
+        "internal": "PoseidonRangedTrait",
+        "name": "Flood Shot",
+        "short_descr": "Your Cast damages foes in an area and knocks them away.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_02",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "DionysusSecondaryTrait": {
+        "internal": "DionysusSecondaryTrait",
+        "name": "Drunken Flourish",
+        "short_descr": "Your Special inflicts Hangover.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_00",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AphroditeRangedBonusTrait": {
+        "internal": "AphroditeRangedBonusTrait",
+        "name": "Blown Kiss",
+        "short_descr": "Your Cast shoots farther and is stronger against undamaged foes.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_13",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AphroditeRangedTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AphroditeRangedTrait"
+        ],
+        "exclusive_with": [
+            "ShieldLoadAmmoTrait"
+        ]
+    },
+    "ShieldLoadAmmo_PoseidonRangedTrait": {
+        "internal": "ShieldLoadAmmo_PoseidonRangedTrait",
+        "name": "Flood Flare",
+        "short_descr": "Your Cast damages foes around you and knocks them away.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_02",
+        "legendary": false,
+        "extra_req": "ShieldLoadAmmoTrait",
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "PoisonCritVulnerabilityTrait": {
+        "internal": "PoisonCritVulnerabilityTrait",
+        "name": "Splitting Headache",
+        "short_descr": "Hangover-afflicted foes are more likely to take Critical damage.",
+        "gods": [
+            "Artemis",
+            "Dionysus"
+        ],
+        "duo": true,
+        "icon": "Dionysus_Artemis_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "ArtemisRangedTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisShoutTrait",
+                "ArtemisWeaponTrait"
+            ],
+            [
+                "DionysusRushTrait",
+                "DionysusSecondaryTrait",
+                "DionysusShoutTrait",
+                "DionysusWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "ArtemisRangedTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisShoutTrait",
+                "ArtemisWeaponTrait"
+            ],
+            [
+                "DionysusRushTrait",
+                "DionysusSecondaryTrait",
+                "DionysusShoutTrait",
+                "DionysusWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "ZeusWeaponTrait": {
+        "internal": "ZeusWeaponTrait",
+        "name": "Lightning Strike",
+        "short_descr": "Your Attack emits chain-lightning when you damage a foe.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_04",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "NoLastStandRegenerationTrait": {
+        "internal": "NoLastStandRegenerationTrait",
+        "name": "Stubborn Roots",
+        "short_descr": "If you have no Death Defiance, your Health slowly recovers.",
+        "gods": [
+            "Athena",
+            "Demeter"
+        ],
+        "duo": true,
+        "icon": "Demeter_Athena_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AthenaRangedTrait",
+                "AthenaRushTrait",
+                "AthenaSecondaryTrait",
+                "AthenaShoutTrait",
+                "AthenaWeaponTrait"
+            ],
+            [
+                "DemeterRangedTrait",
+                "DemeterRushTrait",
+                "DemeterSecondaryTrait",
+                "DemeterShoutTrait",
+                "DemeterWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AthenaRangedTrait",
+                "AthenaRushTrait",
+                "AthenaSecondaryTrait",
+                "AthenaShoutTrait",
+                "AthenaWeaponTrait",
+                "ShieldLoadAmmo_AthenaRangedTrait"
+            ],
+            [
+                "DemeterRangedTrait",
+                "DemeterRushTrait",
+                "DemeterSecondaryTrait",
+                "DemeterShoutTrait",
+                "DemeterWeaponTrait",
+                "ShieldLoadAmmo_DemeterRangedTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "AmmoReclaimTrait": {
+        "internal": "AmmoReclaimTrait",
+        "name": "Quick Reload",
+        "short_descr": "Foes drop Bloodstones stuck in them faster.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_03",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": [
+            "AresRangedTrait",
+            "DemeterRangedTrait",
+            "DionysusRangedTrait",
+            "PoseidonAresProjectileTrait",
+            "ShieldLoadAmmoTrait"
+        ]
+    },
+    "OnEnemyDeathDamageInstanceBuffTrait": {
+        "internal": "OnEnemyDeathDamageInstanceBuffTrait",
+        "name": "Battle Rage",
+        "short_descr": "After slaying a foe, your next Attack or Special deals more damage.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_12",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AphroditeRetaliateTrait": {
+        "internal": "AphroditeRetaliateTrait",
+        "name": "Wave of Despair",
+        "short_descr": "After you take damage, damage foes around you and inflict Weak.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_09",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "DefensiveSuperGenerationTrait": {
+        "internal": "DefensiveSuperGenerationTrait",
+        "name": "Boiling Point",
+        "short_descr": "Your God Gauge charges up faster when you take damage.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_10",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "GunLoadedGrenadeTrait": {
+        "internal": "GunLoadedGrenadeTrait",
+        "name": "Aspect of Lucifer",
+        "short_descr": "You have Igneus Eden, which launches volatile Hellfire.",
+        "gods": [],
+        "duo": false,
+        "icon": "WeaponEnchantment_Gun04",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ShieldLoadAmmo_AthenaRangedTrait": {
+        "internal": "ShieldLoadAmmo_AthenaRangedTrait",
+        "name": "Phalanx Flare",
+        "short_descr": "Your Cast damages foes around you, and can Deflect.",
+        "gods": [
+            "Athena"
+        ],
+        "duo": false,
+        "icon": "Boon_Athena_02",
+        "legendary": false,
+        "extra_req": "ShieldLoadAmmoTrait",
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ArtemisAmmoExitTrait": {
+        "internal": "ArtemisAmmoExitTrait",
+        "name": "Exit Wounds",
+        "short_descr": "Your foes take damage when your Bloodstones stuck in them is dislodged.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_10",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AphroditeRangedTrait",
+            "ArtemisRangedTrait",
+            "AthenaRangedTrait",
+            "PoseidonRangedTrait",
+            "ZeusRangedTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AphroditeRangedTrait",
+            "ArtemisRangedTrait",
+            "AthenaRangedTrait",
+            "PoseidonRangedTrait",
+            "ShieldLoadAmmo_PoseidonRangedTrait",
+            "ZeusRangedTrait"
+        ],
+        "exclusive_with": [
+            "AresRangedTrait",
+            "BlizzardOrbTrait",
+            "DemeterRangedTrait",
+            "DionysusRangedTrait",
+            "PoseidonAresProjectileTrait",
+            "ShieldLoadAmmoTrait"
+        ]
+    },
+    "AresLongCurseTrait": {
+        "internal": "AresLongCurseTrait",
+        "name": "Impending Doom",
+        "short_descr": "Your Doom effects deal more damage, but take +# Sec. to activate.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_13",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AresRetaliateTrait",
+            "AresSecondaryTrait",
+            "AresWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AresRetaliateTrait",
+            "AresSecondaryTrait",
+            "AresWeaponTrait"
+        ],
+        "exclusive_with": []
+    },
+    "SlowProjectileTrait": {
+        "internal": "SlowProjectileTrait",
+        "name": "Calculated Risk",
+        "short_descr": "Your foes' ranged-attack projectiles are slower.",
+        "gods": [
+            "Athena",
+            "Dionysus"
+        ],
+        "duo": true,
+        "icon": "Dionysus_Athena_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AthenaRushTrait",
+                "AthenaSecondaryTrait",
+                "AthenaShoutTrait",
+                "AthenaWeaponTrait"
+            ],
+            [
+                "DionysusRushTrait",
+                "DionysusSecondaryTrait",
+                "DionysusShoutTrait",
+                "DionysusWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AthenaRushTrait",
+                "AthenaSecondaryTrait",
+                "AthenaShoutTrait",
+                "AthenaWeaponTrait"
+            ],
+            [
+                "DionysusRushTrait",
+                "DionysusSecondaryTrait",
+                "DionysusShoutTrait",
+                "DionysusWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "DionysusSlowTrait": {
+        "internal": "DionysusSlowTrait",
+        "name": "Numbing Sensation",
+        "short_descr": "Your Hangover effects also make foes move slower.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_06",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "DionysusRushTrait",
+            "DionysusSecondaryTrait",
+            "DionysusShoutTrait",
+            "DionysusWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "DionysusRushTrait",
+            "DionysusSecondaryTrait",
+            "DionysusShoutTrait",
+            "DionysusWeaponTrait"
+        ],
+        "exclusive_with": []
+    },
+    "ImprovedPomTrait": {
+        "internal": "ImprovedPomTrait",
+        "name": "Sweet Nectar",
+        "short_descr": "Any Poms of Power you find are more potent.",
+        "gods": [
+            "Aphrodite",
+            "Poseidon"
+        ],
+        "duo": true,
+        "icon": "Aphrodite_Poseidon_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeShoutTrait",
+                "AphroditeWeaponTrait"
+            ],
+            [
+                "PoseidonRangedTrait",
+                "PoseidonRushTrait",
+                "PoseidonSecondaryTrait",
+                "PoseidonShoutTrait",
+                "PoseidonWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeShoutTrait",
+                "AphroditeWeaponTrait",
+                "ShieldLoadAmmo_AphroditeRangedTrait"
+            ],
+            [
+                "PoseidonRangedTrait",
+                "PoseidonRushTrait",
+                "PoseidonSecondaryTrait",
+                "PoseidonShoutTrait",
+                "PoseidonWeaponTrait",
+                "ShieldLoadAmmo_PoseidonRangedTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "DionysusSpreadTrait": {
+        "internal": "DionysusSpreadTrait",
+        "name": "Peer Pressure",
+        "short_descr": "Hangover-afflicted foes inflict it on other foes near them every # Sec.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_07",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "DionysusRushTrait",
+            "DionysusSecondaryTrait",
+            "DionysusWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "DionysusRushTrait",
+            "DionysusSecondaryTrait",
+            "DionysusWeaponTrait"
+        ],
+        "exclusive_with": []
+    },
+    "HermesSecondaryTrait": {
+        "internal": "HermesSecondaryTrait",
+        "name": "Swift Flourish",
+        "short_descr": "Your Special is faster.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_09",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": [
+            "SwordSecondaryBlinkTrait"
+        ]
+    },
+    "ShieldLoadAmmo_DionysusRangedTrait": {
+        "internal": "ShieldLoadAmmo_DionysusRangedTrait",
+        "name": "Trippy Flare",
+        "short_descr": "Your Cast damages foes around you, leaving behind Festive Fog.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_02",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "CharmTrait": {
+        "internal": "CharmTrait",
+        "name": "Unhealthy Fixation",
+        "short_descr": "Your Weak effects also have a # chance to Charm foes.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_10",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AphroditeDurationTrait",
+                "AphroditePotencyTrait",
+                "AphroditeWeakenTrait"
+            ],
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AphroditeDurationTrait",
+                "AphroditePotencyTrait",
+                "AphroditeWeakenTrait"
+            ],
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeWeaponTrait",
+                "ShieldLoadAmmo_AphroditeRangedTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "MagnetismTrait": {
+        "internal": "MagnetismTrait",
+        "name": "Greater Recall",
+        "short_descr": "Your Bloodstones return to you automatically.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_11",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AmmoReclaimTrait",
+            "FastClearDodgeBonusTrait",
+            "RapidCastTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AmmoReclaimTrait",
+            "FastClearDodgeBonusTrait",
+            "RapidCastTrait"
+        ],
+        "exclusive_with": []
+    },
+    "DemeterRushTrait": {
+        "internal": "DemeterRushTrait",
+        "name": "Mistral Dash",
+        "short_descr": "Your Dash shoots a gust ahead that inflicts Chill.",
+        "gods": [
+            "Demeter"
+        ],
+        "duo": false,
+        "icon": "Boon_Demeter_03",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ArtemisReflectBuffTrait": {
+        "internal": "ArtemisReflectBuffTrait",
+        "name": "Deadly Reversal",
+        "short_descr": "After you Deflect, briefly gain #  chance to deal Critical damage.",
+        "gods": [
+            "Artemis",
+            "Athena"
+        ],
+        "duo": true,
+        "icon": "Artemis_Athena_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "ArtemisRangedTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisShoutTrait",
+                "ArtemisWeaponTrait"
+            ],
+            [
+                "AthenaSecondaryTrait",
+                "AthenaWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "ArtemisRangedTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisShoutTrait",
+                "ArtemisWeaponTrait",
+                "ShieldLoadAmmo_ArtemisRangedTrait"
+            ],
+            [
+                "AthenaSecondaryTrait",
+                "AthenaWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "AutoRetaliateTrait": {
+        "internal": "AutoRetaliateTrait",
+        "name": "Vengeful Mood",
+        "short_descr": "Your Revenge effects sometimes occur without taking damage.",
+        "gods": [
+            "Ares",
+            "Zeus"
+        ],
+        "duo": true,
+        "icon": "Zeus_Ares_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AphroditeRetaliateTrait",
+                "AresRetaliateTrait",
+                "AthenaRetaliateTrait",
+                "DemeterRetaliateTrait",
+                "RetaliateWeaponTrait"
+            ],
+            [
+                "AresRangedTrait",
+                "AresRushTrait",
+                "AresSecondaryTrait",
+                "AresShoutTrait",
+                "AresWeaponTrait"
+            ],
+            [
+                "ZeusRangedTrait",
+                "ZeusRushTrait",
+                "ZeusSecondaryTrait",
+                "ZeusShoutTrait",
+                "ZeusWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AphroditeRetaliateTrait",
+                "AresRetaliateTrait",
+                "AthenaRetaliateTrait",
+                "DemeterRetaliateTrait",
+                "RetaliateWeaponTrait"
+            ],
+            [
+                "AresRangedTrait",
+                "AresRushTrait",
+                "AresSecondaryTrait",
+                "AresShoutTrait",
+                "AresWeaponTrait",
+                "ShieldLoadAmmo_AresRangedTrait"
+            ],
+            [
+                "ShieldLoadAmmo_ZeusRangedTrait",
+                "ZeusRangedTrait",
+                "ZeusRushTrait",
+                "ZeusSecondaryTrait",
+                "ZeusShoutTrait",
+                "ZeusWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "CastNovaTrait": {
+        "internal": "CastNovaTrait",
+        "name": "Snow Burst",
+        "short_descr": "Whenever you Cast, damage foes around you and inflict Chill.",
+        "gods": [
+            "Demeter"
+        ],
+        "duo": false,
+        "icon": "Boon_Demeter_05",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "MaximumChillBlast": {
+        "internal": "MaximumChillBlast",
+        "name": "Arctic Blast",
+        "short_descr": "Applying # stacks of Chill causes a blast, clearing the effect.",
+        "gods": [
+            "Demeter"
+        ],
+        "duo": false,
+        "icon": "Boon_Demeter_07",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "CastNovaTrait",
+            "DemeterRangedTrait",
+            "DemeterRushTrait",
+            "DemeterSecondaryTrait",
+            "DemeterShoutTrait",
+            "DemeterWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "CastNovaTrait",
+            "DemeterRushTrait",
+            "DemeterSecondaryTrait",
+            "DemeterShoutTrait",
+            "DemeterWeaponTrait",
+            "ShieldLoadAmmo_DemeterRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "AmmoBoltTrait": {
+        "internal": "AmmoBoltTrait",
+        "name": "Lightning Rod",
+        "short_descr": "Your collectible Bloodstones strike nearby foes with lightning every # Sec.",
+        "gods": [
+            "Artemis",
+            "Zeus"
+        ],
+        "duo": true,
+        "icon": "Artemis_Zeus_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "ArtemisRangedTrait",
+                "ArtemisRushTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisShoutTrait",
+                "ArtemisWeaponTrait"
+            ],
+            [
+                "ZeusRangedTrait",
+                "ZeusRushTrait",
+                "ZeusSecondaryTrait",
+                "ZeusShoutTrait",
+                "ZeusWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "ArtemisRangedTrait",
+                "ArtemisRushTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisShoutTrait",
+                "ArtemisWeaponTrait",
+                "ShieldLoadAmmo_ArtemisRangedTrait"
+            ],
+            [
+                "ShieldLoadAmmo_ZeusRangedTrait",
+                "ZeusRangedTrait",
+                "ZeusRushTrait",
+                "ZeusSecondaryTrait",
+                "ZeusShoutTrait",
+                "ZeusWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "CastBackstabTrait": {
+        "internal": "CastBackstabTrait",
+        "name": "Parting Shot",
+        "short_descr": "Your Cast gains any bonuses you have for striking foes from behind.",
+        "gods": [
+            "Aphrodite",
+            "Athena"
+        ],
+        "duo": true,
+        "icon": "Aphrodite_Athena_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeShoutTrait",
+                "AphroditeWeaponTrait"
+            ],
+            [
+                "AthenaRangedTrait",
+                "AthenaRushTrait",
+                "AthenaSecondaryTrait",
+                "AthenaShoutTrait",
+                "AthenaWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeShoutTrait",
+                "AphroditeWeaponTrait"
+            ],
+            [
+                "AthenaRangedTrait",
+                "AthenaRushTrait",
+                "AthenaSecondaryTrait",
+                "AthenaShoutTrait",
+                "AthenaWeaponTrait"
+            ]
+        ],
+        "exclusive_with": [
+            "DionysusRangedTrait",
+            "ShieldLoadAmmoTrait"
+        ]
+    },
+    "RegeneratingSuperTrait": {
+        "internal": "RegeneratingSuperTrait",
+        "name": "Quick Favor",
+        "short_descr": "Your God Gauge charges up automatically.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_13",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "DemeterWeaponTrait": {
+        "internal": "DemeterWeaponTrait",
+        "name": "Frost Strike",
+        "short_descr": "Your Attack is stronger and inflicts Chill.",
+        "gods": [
+            "Demeter"
+        ],
+        "duo": false,
+        "icon": "Boon_Demeter_01",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AphroditePotencyTrait": {
+        "internal": "AphroditePotencyTrait",
+        "name": "Broken Resolve",
+        "short_descr": "Your Weak effects are more potent.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_12",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AphroditeRangedTrait",
+            "AphroditeRushTrait",
+            "AphroditeSecondaryTrait",
+            "AphroditeWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AphroditeRangedTrait",
+            "AphroditeRushTrait",
+            "AphroditeSecondaryTrait",
+            "AphroditeWeaponTrait",
+            "ShieldLoadAmmo_AphroditeRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "PoseidonRushTrait": {
+        "internal": "PoseidonRushTrait",
+        "name": "Tidal Dash",
+        "short_descr": "Your Dash damages foes in an area and knocks them away.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_03",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AthenaWeaponTrait": {
+        "internal": "AthenaWeaponTrait",
+        "name": "Divine Strike",
+        "short_descr": "Your Attack is stronger, and can Deflect.",
+        "gods": [
+            "Athena"
+        ],
+        "duo": false,
+        "icon": "Boon_Athena_01",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ZeusChargedBoltTrait": {
+        "internal": "ZeusChargedBoltTrait",
+        "name": "Splitting Bolt",
+        "short_descr": "Whenever you strike foes with lightning Boons, fire an electric bolt.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_02",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "ZeusBoltAoETrait",
+            "ZeusBonusBoltTrait",
+            "ZeusBonusBounceTrait"
+        ],
+        "nonorm_prereq_data": [
+            "ZeusBoltAoETrait",
+            "ZeusBonusBoltTrait",
+            "ZeusBonusBounceTrait"
+        ],
+        "exclusive_with": []
+    },
+    "PoseidonSecondaryTrait": {
+        "internal": "PoseidonSecondaryTrait",
+        "name": "Tempest Flourish",
+        "short_descr": "Your Special deals more damage and knocks foes away.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_00",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "DemeterSecondaryTrait": {
+        "internal": "DemeterSecondaryTrait",
+        "name": "Frost Flourish",
+        "short_descr": "Your Special is stronger and inflicts Chill.",
+        "gods": [
+            "Demeter"
+        ],
+        "duo": false,
+        "icon": "Boon_Demeter_00",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ZeusBonusBoltTrait": {
+        "internal": "ZeusBonusBoltTrait",
+        "name": "Double Strike",
+        "short_descr": "Your lightning bolt effects have a chance to strike twice.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_11",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "ZeusRangedTrait",
+            "ZeusRushTrait",
+            "ZeusSecondaryTrait",
+            "ZeusShoutTrait"
+        ],
+        "nonorm_prereq_data": [
+            "ShieldLoadAmmo_ZeusRangedTrait",
+            "ZeusRushTrait",
+            "ZeusSecondaryTrait",
+            "ZeusShoutTrait"
+        ],
+        "exclusive_with": []
+    },
+    "SpeedDamageTrait": {
+        "internal": "SpeedDamageTrait",
+        "name": "Rush Delivery",
+        "short_descr": "You deal bonus damage based on any bonus move speed.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_15",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "FastClearDodgeBonusTrait",
+            "MoveSpeedTrait",
+            "RushSpeedBoostTrait"
+        ],
+        "nonorm_prereq_data": [
+            "FastClearDodgeBonusTrait",
+            "MoveSpeedTrait",
+            "RushSpeedBoostTrait"
+        ],
+        "exclusive_with": []
+    },
+    "ReboundingAthenaCastTrait": {
+        "internal": "ReboundingAthenaCastTrait",
+        "name": "Lightning Phalanx",
+        "short_descr": "Your Phalanx Shot Cast bounces between nearby foes.",
+        "gods": [
+            "Athena",
+            "Zeus"
+        ],
+        "duo": true,
+        "icon": "Athena_Zeus_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AthenaRangedTrait"
+            ],
+            [
+                "ZeusRushTrait",
+                "ZeusSecondaryTrait",
+                "ZeusShoutTrait",
+                "ZeusWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AthenaRangedTrait"
+            ],
+            [
+                "ZeusRushTrait",
+                "ZeusSecondaryTrait",
+                "ZeusShoutTrait",
+                "ZeusWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "MoveSpeedTrait": {
+        "internal": "MoveSpeedTrait",
+        "name": "Greater Haste",
+        "short_descr": "You move faster.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_05",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AphroditeDurationTrait": {
+        "internal": "AphroditeDurationTrait",
+        "name": "Empty Inside",
+        "short_descr": "Your Weak effects have a longer duration.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_05",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AphroditeRangedTrait",
+            "AphroditeRushTrait",
+            "AphroditeSecondaryTrait",
+            "AphroditeWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AphroditeRangedTrait",
+            "AphroditeRushTrait",
+            "AphroditeSecondaryTrait",
+            "AphroditeWeaponTrait",
+            "ShieldLoadAmmo_AphroditeRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "ArtemisCriticalTrait": {
+        "internal": "ArtemisCriticalTrait",
+        "name": "Clean Kill",
+        "short_descr": "Your Critical effects deal even more damage.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_05",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "ArtemisRangedTrait",
+            "ArtemisSecondaryTrait",
+            "ArtemisShoutTrait",
+            "ArtemisWeaponTrait",
+            "CritBonusTrait"
+        ],
+        "nonorm_prereq_data": [
+            "ArtemisRangedTrait",
+            "ArtemisSecondaryTrait",
+            "ArtemisShoutTrait",
+            "ArtemisWeaponTrait",
+            "CritBonusTrait"
+        ],
+        "exclusive_with": []
+    },
+    "AresRangedTrait": {
+        "internal": "AresRangedTrait",
+        "name": "Slicing Shot",
+        "short_descr": "Your Cast sends a Blade Rift hurtling ahead.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_02",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": [
+            "ShieldLoadAmmoTrait"
+        ]
+    },
+    "ZeusRangedTrait": {
+        "internal": "ZeusRangedTrait",
+        "name": "Electric Shot",
+        "short_descr": "Your Cast is a burst of chain-lightning that bounces between foes.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_05",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": [
+            "ShieldLoadAmmoTrait"
+        ]
+    },
+    "ArtemisWeaponTrait": {
+        "internal": "ArtemisWeaponTrait",
+        "name": "Deadly Strike",
+        "short_descr": "Your Attack is stronger, with #  chance to deal Critical damage.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_01",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ShieldLoadAmmo_ArtemisRangedTrait": {
+        "internal": "ShieldLoadAmmo_ArtemisRangedTrait",
+        "name": "Hunter's Flare",
+        "short_descr": "Your Cast damages foes around you, with a # Critical chance.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_02",
+        "legendary": false,
+        "extra_req": "ShieldLoadAmmoTrait",
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "JoltDurationTrait": {
+        "internal": "JoltDurationTrait",
+        "name": "Cold Fusion",
+        "short_descr": "Your Jolted effects do not expire when foes attack.",
+        "gods": [
+            "Demeter",
+            "Zeus"
+        ],
+        "duo": true,
+        "icon": "Demeter_Zeus_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "DemeterRushTrait",
+                "DemeterSecondaryTrait",
+                "DemeterShoutTrait",
+                "DemeterWeaponTrait"
+            ],
+            [
+                "ZeusLightningDebuff"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "DemeterRushTrait",
+                "DemeterSecondaryTrait",
+                "DemeterShoutTrait",
+                "DemeterWeaponTrait"
+            ],
+            [
+                "ZeusLightningDebuff"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "IncreasedDamageTrait": {
+        "internal": "IncreasedDamageTrait",
+        "name": "Urge to Kill",
+        "short_descr": "Your Attack, Special, and Cast deal more damage.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_06",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AthenaShieldTrait": {
+        "internal": "AthenaShieldTrait",
+        "name": "Brilliant Riposte",
+        "short_descr": "When you Deflect attacks, it deals more damage.",
+        "gods": [
+            "Athena"
+        ],
+        "duo": false,
+        "icon": "Boon_Athena_05",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AthenaRetaliateTrait",
+            "AthenaRushTrait",
+            "AthenaSecondaryTrait",
+            "AthenaWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AthenaRetaliateTrait",
+            "AthenaRushTrait",
+            "AthenaSecondaryTrait",
+            "AthenaWeaponTrait"
+        ],
+        "exclusive_with": []
+    },
+    "DionysusAphroditeStackIncreaseTrait": {
+        "internal": "DionysusAphroditeStackIncreaseTrait",
+        "name": "Low Tolerance",
+        "short_descr": "Your Hangover effects can stack more times against Weak foes.",
+        "gods": [
+            "Aphrodite",
+            "Dionysus"
+        ],
+        "duo": true,
+        "icon": "Dionysus_Aphrodite_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeWeaponTrait"
+            ],
+            [
+                "DionysusRushTrait",
+                "DionysusSecondaryTrait",
+                "DionysusShoutTrait",
+                "DionysusWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeWeaponTrait",
+                "ShieldLoadAmmo_AphroditeRangedTrait"
+            ],
+            [
+                "DionysusRushTrait",
+                "DionysusSecondaryTrait",
+                "DionysusShoutTrait",
+                "DionysusWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "ArtemisShoutTrait": {
+        "internal": "ArtemisShoutTrait",
+        "name": "Artemis' Aid",
+        "short_descr": "Your Call fires a seeking arrow with #  Critical chance.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_04",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "FountainDamageBonusTrait": {
+        "internal": "FountainDamageBonusTrait",
+        "name": "Strong Drink",
+        "short_descr": "Using a Fountain restores all {!Icons.Health_Small} and gives you bonus damage.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_13",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "SuperGenerationTrait": {
+        "internal": "SuperGenerationTrait",
+        "name": "Clouded Judgment",
+        "short_descr": "Your God Gauge charges up faster when you deal or take damage.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_09",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "PoseidonShoutDurationTrait": {
+        "internal": "PoseidonShoutDurationTrait",
+        "name": "Rip Current",
+        "short_descr": "Your Call pulls in foes and the effect lasts longer.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_15",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "PoseidonShoutTrait"
+        ],
+        "nonorm_prereq_data": [
+            "PoseidonShoutTrait"
+        ],
+        "exclusive_with": []
+    },
+    "HeartsickCritDamageTrait": {
+        "internal": "HeartsickCritDamageTrait",
+        "name": "Heart Rend",
+        "short_descr": "Your Critical effects deal even more damage to Weak foes.",
+        "gods": [
+            "Aphrodite",
+            "Artemis"
+        ],
+        "duo": true,
+        "icon": "Artemis_Aphrodite_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeWeaponTrait"
+            ],
+            [
+                "ArtemisRangedTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeWeaponTrait",
+                "ShieldLoadAmmo_AphroditeRangedTrait"
+            ],
+            [
+                "ArtemisRangedTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisWeaponTrait",
+                "ShieldLoadAmmo_ArtemisRangedTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "ZeusBonusBounceTrait": {
+        "internal": "ZeusBonusBounceTrait",
+        "name": "Storm Lightning",
+        "short_descr": "Your chain-lightning effects bounce more times before expiring.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_03",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "ZeusRangedTrait",
+            "ZeusWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "ZeusRangedTrait",
+            "ZeusWeaponTrait"
+        ],
+        "exclusive_with": []
+    },
+    "DionysusRushTrait": {
+        "internal": "DionysusRushTrait",
+        "name": "Drunken Dash",
+        "short_descr": "Your Dash causes Hangover several times near where you started.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_03",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "RegeneratingCappedSuperTrait": {
+        "internal": "RegeneratingCappedSuperTrait",
+        "name": "Smoldering Air",
+        "short_descr": "Your God Gauge charges up automatically, but is capped at 25%.",
+        "gods": [
+            "Aphrodite",
+            "Zeus"
+        ],
+        "duo": true,
+        "icon": "Zeus_Aphrodite_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeShoutTrait",
+                "AphroditeWeaponTrait"
+            ],
+            [
+                "ZeusRangedTrait",
+                "ZeusRushTrait",
+                "ZeusSecondaryTrait",
+                "ZeusShoutTrait",
+                "ZeusWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeShoutTrait",
+                "AphroditeWeaponTrait",
+                "ShieldLoadAmmo_AphroditeRangedTrait"
+            ],
+            [
+                "ShieldLoadAmmo_ZeusRangedTrait",
+                "ZeusRangedTrait",
+                "ZeusRushTrait",
+                "ZeusSecondaryTrait",
+                "ZeusShoutTrait",
+                "ZeusWeaponTrait"
+            ]
+        ],
+        "exclusive_with": [
+            "HadesShoutTrait"
+        ]
+    },
+    "AresLoadCurseTrait": {
+        "internal": "AresLoadCurseTrait",
+        "name": "Dire Misfortune",
+        "short_descr": "Your Doom effects deal more damage when applied multiple times.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_11",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AresSecondaryTrait",
+            "AresWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AresSecondaryTrait",
+            "AresWeaponTrait"
+        ],
+        "exclusive_with": []
+    },
+    "ArtemisSupportingFireTrait": {
+        "internal": "ArtemisSupportingFireTrait",
+        "name": "Support Fire",
+        "short_descr": "After you Cast, or hit with an Attack or Special, fire a seeking arrow.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_12",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "ArtemisRangedTrait",
+            "ArtemisRushTrait",
+            "ArtemisSecondaryTrait",
+            "ArtemisShoutTrait",
+            "ArtemisWeaponTrait",
+            "CritBonusTrait"
+        ],
+        "nonorm_prereq_data": [
+            "ArtemisRangedTrait",
+            "ArtemisRushTrait",
+            "ArtemisSecondaryTrait",
+            "ArtemisShoutTrait",
+            "ArtemisWeaponTrait",
+            "CritBonusTrait",
+            "ShieldLoadAmmo_ArtemisRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "TrapDamageTrait": {
+        "internal": "TrapDamageTrait",
+        "name": "Sure Footing",
+        "short_descr": "Resist damage from Traps.",
+        "gods": [
+            "Athena"
+        ],
+        "duo": false,
+        "icon": "Boon_Athena_07",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "EnemyDamageTrait": {
+        "internal": "EnemyDamageTrait",
+        "name": "Bronze Skin",
+        "short_descr": "Resist damage from foes' attacks.",
+        "gods": [
+            "Athena"
+        ],
+        "duo": false,
+        "icon": "Boon_Athena_06",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "HealthRewardBonusTrait": {
+        "internal": "HealthRewardBonusTrait",
+        "name": "Life Affirmation",
+        "short_descr": "Any {!Icons.HealthUp_Small} chamber rewards are worth more.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_11",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "CritBonusTrait": {
+        "internal": "CritBonusTrait",
+        "name": "Pressure Points",
+        "short_descr": "Any damage you deal has a chance to be Critical.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_08",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "FishingTrait": {
+        "internal": "FishingTrait",
+        "name": "Huge Catch",
+        "short_descr": "You have a greater chance to find a Fishing Point in each Chamber(s).",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_13",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "TwoOf",
+        "prereq_data": [
+            "ForcePoseidonBoonTrait",
+            "RoomRewardBonusTrait"
+        ],
+        "nonorm_prereq_data": [
+            "ForcePoseidonBoonTrait",
+            "PoseidonPickedUpMinorLootTrait",
+            "RoomRewardBonusTrait"
+        ],
+        "exclusive_with": []
+    },
+    "InstantChillKill": {
+        "internal": "InstantChillKill",
+        "name": "Winter Harvest",
+        "short_descr": "Chill-afflicted foes shatter at #%Health, inflicting Chill nearby.",
+        "gods": [
+            "Demeter"
+        ],
+        "duo": false,
+        "icon": "Boon_Demeter_10",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "TwoOf",
+        "prereq_data": [
+            "MaximumChillBlast",
+            "MaximumChillBonusSlow",
+            "ZeroAmmoBonusTrait"
+        ],
+        "nonorm_prereq_data": [
+            "MaximumChillBlast",
+            "MaximumChillBonusSlow",
+            "ZeroAmmoBonusTrait"
+        ],
+        "exclusive_with": []
+    },
+    "PreloadSuperGenerationTrait": {
+        "internal": "PreloadSuperGenerationTrait",
+        "name": "Proud Bearing",
+        "short_descr": "You begin each Encounter(s) with your God Gauge partly full.",
+        "gods": [
+            "Athena"
+        ],
+        "duo": false,
+        "icon": "Boon_Athena_13",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "LowHealthDefenseTrait": {
+        "internal": "LowHealthDefenseTrait",
+        "name": "Positive Outlook",
+        "short_descr": "You take less damage while at #%Health or below.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_12",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "DionysusComboVulnerability": {
+        "internal": "DionysusComboVulnerability",
+        "name": "Black Out",
+        "short_descr": "Hangover-afflicted foes take bonus damage in Festive Fog.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_08",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "DionysusRangedTrait"
+            ],
+            [
+                "DionysusRushTrait",
+                "DionysusSecondaryTrait",
+                "DionysusShoutTrait",
+                "DionysusWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "DionysusRangedTrait",
+                "ShieldLoadAmmo_DionysusRangedTrait"
+            ],
+            [
+                "DionysusRushTrait",
+                "DionysusSecondaryTrait",
+                "DionysusShoutTrait",
+                "DionysusWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "ForcePoseidonBoonTrait": {
+        "internal": "ForcePoseidonBoonTrait",
+        "name": "Conch Shell",
+        "short_descr": "The next Boons you find will be from Poseidon. His blessings have #  chance to be Rare or better.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Keepsake_Conch",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "MaximumChillBonusSlow": {
+        "internal": "MaximumChillBonusSlow",
+        "name": "Killing Freeze",
+        "short_descr": "When all foes are Chill-afflicted, they are # slower and decay.",
+        "gods": [
+            "Demeter"
+        ],
+        "duo": false,
+        "icon": "Boon_Demeter_12",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "CastNovaTrait",
+            "DemeterRangedTrait",
+            "DemeterRushTrait",
+            "DemeterSecondaryTrait",
+            "DemeterShoutTrait",
+            "DemeterWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "CastNovaTrait",
+            "DemeterRushTrait",
+            "DemeterSecondaryTrait",
+            "DemeterShoutTrait",
+            "DemeterWeaponTrait",
+            "ShieldLoadAmmo_DemeterRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "PoseidonAresProjectileTrait": {
+        "internal": "PoseidonAresProjectileTrait",
+        "name": "Curse of Drowning",
+        "short_descr": "Your Flood Shot becomes a pulse that damages foes around you.",
+        "gods": [
+            "Ares",
+            "Poseidon"
+        ],
+        "duo": true,
+        "icon": "Poseidon_Ares_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AresRushTrait",
+                "AresSecondaryTrait",
+                "AresShoutTrait",
+                "AresWeaponTrait"
+            ],
+            [
+                "PoseidonRangedTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AresRushTrait",
+                "AresSecondaryTrait",
+                "AresShoutTrait",
+                "AresWeaponTrait"
+            ],
+            [
+                "PoseidonRangedTrait",
+                "ShieldLoadAmmo_PoseidonRangedTrait"
+            ]
+        ],
+        "exclusive_with": [
+            "ArtemisBonusProjectileTrait",
+            "BlizzardOrbTrait",
+            "BowLoadAmmoTrait"
+        ]
+    },
+    "ArtemisBonusProjectileTrait": {
+        "internal": "ArtemisBonusProjectileTrait",
+        "name": "Mirage Shot",
+        "short_descr": "Your Cast fires a second projectile, which deals reduced base damage.",
+        "gods": [
+            "Artemis",
+            "Poseidon"
+        ],
+        "duo": true,
+        "icon": "Poseidon_Artemis_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "ArtemisRangedTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisShoutTrait",
+                "ArtemisWeaponTrait"
+            ],
+            [
+                "PoseidonRangedTrait",
+                "PoseidonRushTrait",
+                "PoseidonSecondaryTrait",
+                "PoseidonShoutTrait",
+                "PoseidonWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "ArtemisRangedTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisShoutTrait",
+                "ArtemisWeaponTrait",
+                "ShieldLoadAmmo_ArtemisRangedTrait"
+            ],
+            [
+                "PoseidonRangedTrait",
+                "PoseidonRushTrait",
+                "PoseidonSecondaryTrait",
+                "PoseidonShoutTrait",
+                "PoseidonWeaponTrait",
+                "ShieldLoadAmmo_PoseidonRangedTrait"
+            ]
+        ],
+        "exclusive_with": [
+            "PoseidonAresProjectileTrait"
+        ]
+    },
+    "OnWrathDamageBuffTrait": {
+        "internal": "OnWrathDamageBuffTrait",
+        "name": "Billowing Strength",
+        "short_descr": "After using Call, you deal more damage for # Sec.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_13",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ArtemisSecondaryTrait": {
+        "internal": "ArtemisSecondaryTrait",
+        "name": "Deadly Flourish",
+        "short_descr": "Your Special is stronger, with #  chance to deal Critical damage.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_00",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "HomingLaserTrait": {
+        "internal": "HomingLaserTrait",
+        "name": "Crystal Clarity",
+        "short_descr": "Your Cast is stronger and tracks foes more effectively.",
+        "gods": [
+            "Artemis",
+            "Demeter"
+        ],
+        "duo": true,
+        "icon": "Demeter_Artemis_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "ArtemisRushTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisShoutTrait",
+                "ArtemisWeaponTrait"
+            ],
+            [
+                "DemeterRangedTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "ArtemisRushTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisShoutTrait",
+                "ArtemisWeaponTrait"
+            ],
+            [
+                "DemeterRangedTrait"
+            ]
+        ],
+        "exclusive_with": [
+            "MultiLaserTrait",
+            "SelfLaserTrait"
+        ]
+    },
+    "ShieldLoadAmmo_DemeterRangedTrait": {
+        "internal": "ShieldLoadAmmo_DemeterRangedTrait",
+        "name": "Icy Flare",
+        "short_descr": "Your Cast damages foes around you and inflicts Chill.",
+        "gods": [
+            "Demeter"
+        ],
+        "duo": false,
+        "icon": "Boon_Demeter_02",
+        "legendary": false,
+        "extra_req": "ShieldLoadAmmoTrait",
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "HadesShoutTrait": {
+        "internal": "HadesShoutTrait",
+        "name": "Hades' Aid",
+        "short_descr": "Your Call briefly makes you turn Invisible.",
+        "gods": [],
+        "duo": false,
+        "icon": "Boon_Hades_01",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ImpactBoltTrait": {
+        "internal": "ImpactBoltTrait",
+        "name": "Sea Storm",
+        "short_descr": "When you knock foes away, they are struck by lightning.",
+        "gods": [
+            "Poseidon",
+            "Zeus"
+        ],
+        "duo": true,
+        "icon": "Poseidon_Zeus_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "PoseidonRangedTrait",
+                "PoseidonSecondaryTrait",
+                "PoseidonShoutTrait",
+                "PoseidonWeaponTrait"
+            ],
+            [
+                "ZeusRangedTrait",
+                "ZeusRushTrait",
+                "ZeusSecondaryTrait",
+                "ZeusShoutTrait",
+                "ZeusWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "PoseidonRangedTrait",
+                "PoseidonSecondaryTrait",
+                "PoseidonShoutTrait",
+                "PoseidonWeaponTrait",
+                "ShieldLoadAmmo_PoseidonRangedTrait"
+            ],
+            [
+                "ShieldLoadAmmo_ZeusRangedTrait",
+                "ZeusRangedTrait",
+                "ZeusRushTrait",
+                "ZeusSecondaryTrait",
+                "ZeusShoutTrait",
+                "ZeusWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "PoseidonWeaponTrait": {
+        "internal": "PoseidonWeaponTrait",
+        "name": "Tempest Strike",
+        "short_descr": "Your Attack deals more damage and knocks foes away.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_01",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AphroditeShoutTrait": {
+        "internal": "AphroditeShoutTrait",
+        "name": "Aphrodite's Aid",
+        "short_descr": "Your Call fires a seeking projectile that inflicts Charm.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_04",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "RetaliateWeaponTrait": {
+        "internal": "RetaliateWeaponTrait",
+        "name": "Heaven's Vengeance",
+        "short_descr": "After you take damage, your foe is struck by lightning.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_01",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "BossDamageTrait": {
+        "internal": "BossDamageTrait",
+        "name": "Wave Pounding",
+        "short_descr": "Your Boons with knock-away effects deal bonus damage to Bosses.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_12",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "PoseidonRangedTrait",
+            "PoseidonRushTrait",
+            "PoseidonSecondaryTrait",
+            "PoseidonShoutTrait",
+            "PoseidonWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "PoseidonRangedTrait",
+            "PoseidonRushTrait",
+            "PoseidonSecondaryTrait",
+            "PoseidonShoutTrait",
+            "PoseidonWeaponTrait",
+            "ShieldLoadAmmo_PoseidonRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "RaritySuperBoost": {
+        "internal": "RaritySuperBoost",
+        "name": "Exclusive Access",
+        "short_descr": "Any Boons you find are more potent.",
+        "gods": [
+            "Dionysus",
+            "Poseidon"
+        ],
+        "duo": true,
+        "icon": "Dionysus_Poseidon_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "DionysusRangedTrait",
+                "DionysusRushTrait",
+                "DionysusSecondaryTrait",
+                "DionysusShoutTrait",
+                "DionysusWeaponTrait"
+            ],
+            [
+                "PoseidonRangedTrait",
+                "PoseidonRushTrait",
+                "PoseidonSecondaryTrait",
+                "PoseidonShoutTrait",
+                "PoseidonWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "DionysusRangedTrait",
+                "DionysusRushTrait",
+                "DionysusSecondaryTrait",
+                "DionysusShoutTrait",
+                "DionysusWeaponTrait",
+                "ShieldLoadAmmo_DionysusRangedTrait"
+            ],
+            [
+                "PoseidonRangedTrait",
+                "PoseidonRushTrait",
+                "PoseidonSecondaryTrait",
+                "PoseidonShoutTrait",
+                "PoseidonWeaponTrait",
+                "ShieldLoadAmmo_PoseidonRangedTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "PerfectDashBoltTrait": {
+        "internal": "PerfectDashBoltTrait",
+        "name": "Lightning Reflexes",
+        "short_descr": "After you Dash just before getting hit, a bolt strikes a nearby foe.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_15",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ArtemisRangedTrait": {
+        "internal": "ArtemisRangedTrait",
+        "name": "True Shot",
+        "short_descr": "Your Cast seeks foes, with #  chance to deal Critical damage.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_02",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": [
+            "ShieldLoadAmmoTrait"
+        ]
+    },
+    "AphroditeRangedTrait": {
+        "internal": "AphroditeRangedTrait",
+        "name": "Crush Shot",
+        "short_descr": "Your Cast is a wide, short-range blast that inflicts Weak.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_02",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": [
+            "ShieldLoadAmmoTrait"
+        ]
+    },
+    "AthenaRetaliateTrait": {
+        "internal": "AthenaRetaliateTrait",
+        "name": "Holy Shield",
+        "short_descr": "After you take damage, damage foes around you and briefly Deflect.",
+        "gods": [
+            "Athena"
+        ],
+        "duo": false,
+        "icon": "Boon_Athena_08",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AthenaBackstabDebuffTrait": {
+        "internal": "AthenaBackstabDebuffTrait",
+        "name": "Blinding Flash",
+        "short_descr": "Your abilities that can Deflect also make foes Exposed.",
+        "gods": [
+            "Athena"
+        ],
+        "duo": false,
+        "icon": "Boon_Athena_14",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AthenaRangedTrait",
+            "AthenaRushTrait",
+            "AthenaSecondaryTrait",
+            "AthenaWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AthenaRangedTrait",
+            "AthenaRushTrait",
+            "AthenaSecondaryTrait",
+            "AthenaWeaponTrait",
+            "ShieldLoadAmmo_AthenaRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "ShieldLoadAmmo_AphroditeRangedTrait": {
+        "internal": "ShieldLoadAmmo_AphroditeRangedTrait",
+        "name": "Passion Flare",
+        "short_descr": "Your Cast damages foes around you and inflicts Weak.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_02",
+        "legendary": false,
+        "extra_req": "ShieldLoadAmmoTrait",
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AresRetaliateTrait": {
+        "internal": "AresRetaliateTrait",
+        "name": "Curse of Vengeance",
+        "short_descr": "After you take damage, inflict Doom on foes around you.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_05",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "MoreAmmoTrait": {
+        "internal": "MoreAmmoTrait",
+        "name": "Fully Loaded",
+        "short_descr": "Gain extra Bloodstones for your Cast.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_07",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "TwoOf",
+        "prereq_data": [
+            "ArtemisAmmoExitTrait",
+            "ArtemisSupportingFireTrait",
+            "CritBonusTrait"
+        ],
+        "nonorm_prereq_data": [
+            "ArtemisAmmoExitTrait",
+            "ArtemisSupportingFireTrait",
+            "CritBonusTrait"
+        ],
+        "exclusive_with": []
+    },
+    "RushRallyTrait": {
+        "internal": "RushRallyTrait",
+        "name": "Quick Recovery",
+        "short_descr": "After taking damage, quickly Dash to recover some Health you just lost.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_07",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "BlizzardOrbTrait": {
+        "internal": "BlizzardOrbTrait",
+        "name": "Blizzard Shot",
+        "short_descr": "Your Cast moves slowly, piercing foes and firing shards around it.",
+        "gods": [
+            "Demeter",
+            "Poseidon"
+        ],
+        "duo": true,
+        "icon": "Poseidon_Demeter_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "DemeterRushTrait",
+                "DemeterSecondaryTrait",
+                "DemeterShoutTrait",
+                "DemeterWeaponTrait"
+            ],
+            [
+                "PoseidonRangedTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "DemeterRushTrait",
+                "DemeterSecondaryTrait",
+                "DemeterShoutTrait",
+                "DemeterWeaponTrait"
+            ],
+            [
+                "PoseidonRangedTrait"
+            ]
+        ],
+        "exclusive_with": [
+            "IceStrikeArrayTrait",
+            "PoseidonAresProjectileTrait",
+            "ShieldLoadAmmoTrait"
+        ]
+    },
+    "HermesWeaponTrait": {
+        "internal": "HermesWeaponTrait",
+        "name": "Swift Strike",
+        "short_descr": "Your Attack is faster.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_06",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ZeusSecondaryTrait": {
+        "internal": "ZeusSecondaryTrait",
+        "name": "Thunder Flourish",
+        "short_descr": "Your Special causes a lightning bolt to strike nearby foes.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_00",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AresSecondaryTrait": {
+        "internal": "AresSecondaryTrait",
+        "name": "Curse of Pain",
+        "short_descr": "Your Special inflicts Doom.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_00",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "CurseSickTrait": {
+        "internal": "CurseSickTrait",
+        "name": "Curse of Longing",
+        "short_descr": "Your Doom effects continuously strike Weak foes.",
+        "gods": [
+            "Aphrodite",
+            "Ares"
+        ],
+        "duo": true,
+        "icon": "Ares_Aphrodite_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeWeaponTrait"
+            ],
+            [
+                "AresSecondaryTrait",
+                "AresWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AphroditeRangedTrait",
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeWeaponTrait",
+                "ShieldLoadAmmo_AphroditeRangedTrait"
+            ],
+            [
+                "AresSecondaryTrait",
+                "AresWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "AphroditeWeaponTrait": {
+        "internal": "AphroditeWeaponTrait",
+        "name": "Heartbreak Strike",
+        "short_descr": "Your Attack deals more damage and inflicts Weak.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_01",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AresRushTrait": {
+        "internal": "AresRushTrait",
+        "name": "Blade Dash",
+        "short_descr": "Your Dash creates a Blade Rift where you started.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_03",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "DionysusRangedTrait": {
+        "internal": "DionysusRangedTrait",
+        "name": "Trippy Shot",
+        "short_descr": "Your Cast lobs a large explosive that bursts into Festive Fog.",
+        "gods": [
+            "Dionysus"
+        ],
+        "duo": false,
+        "icon": "Boon_Dionysus_02",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "DemeterRangedBonusTrait": {
+        "internal": "DemeterRangedBonusTrait",
+        "name": "Glacial Glare",
+        "short_descr": "Your Cast fires longer and inflicts Chill.",
+        "gods": [
+            "Demeter"
+        ],
+        "duo": false,
+        "icon": "Boon_Demeter_14",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "DemeterRangedTrait"
+        ],
+        "nonorm_prereq_data": [
+            "DemeterRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "RoomRewardBonusTrait": {
+        "internal": "RoomRewardBonusTrait",
+        "name": "Ocean's Bounty",
+        "short_descr": "Any Gemstones, Darkness and Obol chamber rewards are worth more.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_09",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "DodgeChanceTrait": {
+        "internal": "DodgeChanceTrait",
+        "name": "Greater Evasion",
+        "short_descr": "Whenever you are hit, you have a chance to Dodge automatically.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_04",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AphroditeDeathTrait": {
+        "internal": "AphroditeDeathTrait",
+        "name": "Dying Lament",
+        "short_descr": "When foes are slain, they damage nearby foes and inflict Weak.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_08",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "CriticalBufferMultiplierTrait": {
+        "internal": "CriticalBufferMultiplierTrait",
+        "name": "Hide Breaker",
+        "short_descr": "Your Critical effects deal even more damage to Armor.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_09",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "ArtemisRangedTrait",
+            "ArtemisSecondaryTrait",
+            "ArtemisShoutTrait",
+            "ArtemisWeaponTrait",
+            "CritBonusTrait"
+        ],
+        "nonorm_prereq_data": [
+            "ArtemisRangedTrait",
+            "ArtemisSecondaryTrait",
+            "ArtemisShoutTrait",
+            "ArtemisWeaponTrait",
+            "CritBonusTrait"
+        ],
+        "exclusive_with": []
+    },
+    "DemeterRangedTrait": {
+        "internal": "DemeterRangedTrait",
+        "name": "Crystal Beam",
+        "short_descr": "Your Cast drops a crystal that fires a beam at foes for # Sec.",
+        "gods": [
+            "Demeter"
+        ],
+        "duo": false,
+        "icon": "Boon_Demeter_02",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": [
+            "ShieldLoadAmmoTrait"
+        ]
+    },
+    "ProximityArmorTrait": {
+        "internal": "ProximityArmorTrait",
+        "name": "Different League",
+        "short_descr": "Resist some damage from nearby foes' attacks.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_07",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ChamberGoldTrait": {
+        "internal": "ChamberGoldTrait",
+        "name": "Side Hustle",
+        "short_descr": "Each time you enter a Chamber(s), gain a bit of wealth.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_14",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "StationaryRiftTrait": {
+        "internal": "StationaryRiftTrait",
+        "name": "Freezing Vortex",
+        "short_descr": "Your Cast inflicts Chill, but is smaller and moves slower.",
+        "gods": [
+            "Ares",
+            "Demeter"
+        ],
+        "duo": true,
+        "icon": "Ares_Demeter_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AresRangedTrait"
+            ],
+            [
+                "DemeterRushTrait",
+                "DemeterSecondaryTrait",
+                "DemeterShoutTrait",
+                "DemeterWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AresRangedTrait",
+                "ShieldLoadAmmo_AresRangedTrait"
+            ],
+            [
+                "DemeterRushTrait",
+                "DemeterSecondaryTrait",
+                "DemeterShoutTrait",
+                "DemeterWeaponTrait"
+            ]
+        ],
+        "exclusive_with": [
+            "AresHomingTrait"
+        ]
+    },
+    "AphroditeWeakenTrait": {
+        "internal": "AphroditeWeakenTrait",
+        "name": "Sweet Surrender",
+        "short_descr": "Weak-afflicted foes are also more susceptible to damage.",
+        "gods": [
+            "Aphrodite"
+        ],
+        "duo": false,
+        "icon": "Boon_Aphrodite_06",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AphroditeRangedTrait",
+            "AphroditeRushTrait",
+            "AphroditeSecondaryTrait",
+            "AphroditeWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AphroditeRangedTrait",
+            "AphroditeRushTrait",
+            "AphroditeSecondaryTrait",
+            "AphroditeWeaponTrait",
+            "ShieldLoadAmmo_AphroditeRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "UnstoredAmmoDamageTrait": {
+        "internal": "UnstoredAmmoDamageTrait",
+        "name": "Bad News",
+        "short_descr": "Your Cast deals bonus damage to foes without Bloodstones in them.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_02",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AmmoReloadTrait",
+            "FastClearDodgeBonusTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AmmoReloadTrait",
+            "FastClearDodgeBonusTrait"
+        ],
+        "exclusive_with": [
+            "MagnetismTrait"
+        ]
+    },
+    "CriticalSuperGenerationTrait": {
+        "internal": "CriticalSuperGenerationTrait",
+        "name": "Hunter Instinct",
+        "short_descr": "Your God Gauge charges up faster when you deal Critical damage.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_13",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "ArtemisRangedTrait",
+            "ArtemisSecondaryTrait",
+            "ArtemisWeaponTrait",
+            "CritBonusTrait"
+        ],
+        "nonorm_prereq_data": [
+            "ArtemisRangedTrait",
+            "ArtemisSecondaryTrait",
+            "ArtemisWeaponTrait",
+            "CritBonusTrait"
+        ],
+        "exclusive_with": []
+    },
+    "BowLoadAmmoTrait": {
+        "internal": "BowLoadAmmoTrait",
+        "name": "Aspect of Hera",
+        "short_descr": "Your Cast loads Bloodstones into your next Attack, firing on impact.",
+        "gods": [],
+        "duo": false,
+        "icon": "WeaponEnchantment_Bow03",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AresDragTrait": {
+        "internal": "AresDragTrait",
+        "name": "Engulfing Vortex",
+        "short_descr": "Your Blade Rift effects last longer and pull foes in.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_08",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AresRangedTrait",
+            "AresRushTrait",
+            "AresShoutTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AresRangedTrait",
+            "AresRushTrait",
+            "AresShoutTrait",
+            "ShieldLoadAmmo_AresRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "DoubleCollisionTrait": {
+        "internal": "DoubleCollisionTrait",
+        "name": "Second Wave",
+        "short_descr": "Your Boons with knock-away effects shove foes multiple times.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_07",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "BonusCollisionTrait",
+                "SlamExplosionTrait"
+            ],
+            [
+                "PoseidonRangedTrait",
+                "PoseidonRushTrait",
+                "PoseidonSecondaryTrait",
+                "PoseidonShoutTrait",
+                "PoseidonWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "BonusCollisionTrait",
+                "SlamExplosionTrait"
+            ],
+            [
+                "PoseidonRangedTrait",
+                "PoseidonRushTrait",
+                "PoseidonSecondaryTrait",
+                "PoseidonShoutTrait",
+                "PoseidonWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "AresCursedRiftTrait": {
+        "internal": "AresCursedRiftTrait",
+        "name": "Vicious Cycle",
+        "short_descr": "Your Blade Rift effects deal more damage for each consecutive hit.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_09",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AresAoETrait",
+            "AresDragTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AresAoETrait",
+            "AresDragTrait"
+        ],
+        "exclusive_with": []
+    },
+    "AresHomingTrait": {
+        "internal": "AresHomingTrait",
+        "name": "Hunting Blades",
+        "short_descr": "Your Cast creates a faster Blade Rift that seeks the nearest foe.",
+        "gods": [
+            "Ares",
+            "Artemis"
+        ],
+        "duo": true,
+        "icon": "Artemis_Ares_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AresRangedTrait"
+            ],
+            [
+                "ArtemisRushTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisShoutTrait",
+                "ArtemisWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AresRangedTrait"
+            ],
+            [
+                "ArtemisRushTrait",
+                "ArtemisSecondaryTrait",
+                "ArtemisShoutTrait",
+                "ArtemisWeaponTrait"
+            ]
+        ],
+        "exclusive_with": [
+            "ShieldLoadAmmoTrait",
+            "StationaryRiftTrait"
+        ]
+    },
+    "SelfLaserTrait": {
+        "internal": "SelfLaserTrait",
+        "name": "Cold Embrace",
+        "short_descr": "Your Cast crystal fires its beam directly at you for +# Sec.",
+        "gods": [
+            "Aphrodite",
+            "Demeter"
+        ],
+        "duo": true,
+        "icon": "Aphrodite_Demeter_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeShoutTrait",
+                "AphroditeWeaponTrait"
+            ],
+            [
+                "DemeterRangedTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "AphroditeRushTrait",
+                "AphroditeSecondaryTrait",
+                "AphroditeShoutTrait",
+                "AphroditeWeaponTrait"
+            ],
+            [
+                "DemeterRangedTrait"
+            ]
+        ],
+        "exclusive_with": [
+            "HomingLaserTrait"
+        ]
+    },
+    "EncounterStartOffenseBuffTrait": {
+        "internal": "EncounterStartOffenseBuffTrait",
+        "name": "Hydraulic Might",
+        "short_descr": "Your Attack and Special are stronger the first # Sec. in Encounter(s).",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_14",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "SlamExplosionTrait": {
+        "internal": "SlamExplosionTrait",
+        "name": "Breaking Wave",
+        "short_descr": "Slamming foes into barriers creates a watery blast in the area.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_08",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "PoseidonRangedTrait",
+            "PoseidonRushTrait",
+            "PoseidonSecondaryTrait",
+            "PoseidonShoutTrait",
+            "PoseidonWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "PoseidonRangedTrait",
+            "PoseidonRushTrait",
+            "PoseidonSecondaryTrait",
+            "PoseidonShoutTrait",
+            "PoseidonWeaponTrait",
+            "ShieldLoadAmmo_PoseidonRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "LightningCloudTrait": {
+        "internal": "LightningCloudTrait",
+        "name": "Scintillating Feast",
+        "short_descr": "Your Festive Fog effects also deal lightning damage periodically.",
+        "gods": [
+            "Dionysus",
+            "Zeus"
+        ],
+        "duo": true,
+        "icon": "Zeus_Dionysus_01",
+        "legendary": true,
+        "extra_req": null,
+        "prereq_type": "OneFromEachSet",
+        "prereq_data": [
+            [
+                "DionysusRangedTrait"
+            ],
+            [
+                "ZeusRushTrait",
+                "ZeusSecondaryTrait",
+                "ZeusShoutTrait",
+                "ZeusWeaponTrait"
+            ]
+        ],
+        "nonorm_prereq_data": [
+            [
+                "DionysusRangedTrait"
+            ],
+            [
+                "ZeusRushTrait",
+                "ZeusSecondaryTrait",
+                "ZeusShoutTrait",
+                "ZeusWeaponTrait"
+            ]
+        ],
+        "exclusive_with": []
+    },
+    "CritVulnerabilityTrait": {
+        "internal": "CritVulnerabilityTrait",
+        "name": "Hunter's Mark",
+        "short_descr": "After you deal Critical damage to a foe, a foe near it is Marked.",
+        "gods": [
+            "Artemis"
+        ],
+        "duo": false,
+        "icon": "Boon_Artemis_14",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "ArtemisRangedTrait",
+            "ArtemisSecondaryTrait",
+            "ArtemisShoutTrait",
+            "ArtemisWeaponTrait",
+            "CritBonusTrait"
+        ],
+        "nonorm_prereq_data": [
+            "ArtemisRangedTrait",
+            "ArtemisSecondaryTrait",
+            "ArtemisShoutTrait",
+            "ArtemisWeaponTrait",
+            "CritBonusTrait"
+        ],
+        "exclusive_with": []
+    },
+    "AthenaSecondaryTrait": {
+        "internal": "AthenaSecondaryTrait",
+        "name": "Divine Flourish",
+        "short_descr": "Your Special is stronger, and can Deflect.",
+        "gods": [
+            "Athena"
+        ],
+        "duo": false,
+        "icon": "Boon_Athena_00",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AresAoETrait": {
+        "internal": "AresAoETrait",
+        "name": "Black Metal",
+        "short_descr": "Your Blade Rift effects deal damage in a wider area.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_07",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "AresRangedTrait",
+            "AresRushTrait",
+            "AresShoutTrait"
+        ],
+        "nonorm_prereq_data": [
+            "AresRangedTrait",
+            "AresRushTrait",
+            "AresShoutTrait",
+            "ShieldLoadAmmo_AresRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "FastClearDodgeBonusTrait": {
+        "internal": "FastClearDodgeBonusTrait",
+        "name": "Lambent Plume",
+        "short_descr": "Gain greater Dodge chance and move speed each time you quickly clear an Encounter(s). Dodge Chance & Move Speed: #",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Keepsake_Feather",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "SlipperyTrait": {
+        "internal": "SlipperyTrait",
+        "name": "Razor Shoals",
+        "short_descr": "Your Boons with knock-away effects also Rupture foes.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_11",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "PoseidonRangedTrait",
+            "PoseidonRushTrait",
+            "PoseidonSecondaryTrait",
+            "PoseidonShoutTrait",
+            "PoseidonWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "PoseidonRangedTrait",
+            "PoseidonRushTrait",
+            "PoseidonSecondaryTrait",
+            "PoseidonShoutTrait",
+            "PoseidonWeaponTrait",
+            "ShieldLoadAmmo_PoseidonRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "RushSpeedBoostTrait": {
+        "internal": "RushSpeedBoostTrait",
+        "name": "Hyper Sprint",
+        "short_descr": "After you Dash, briefly become Sturdy and move #  faster.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_08",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "ShieldLoadAmmoTrait": {
+        "internal": "ShieldLoadAmmoTrait",
+        "name": "Aspect of Beowulf",
+        "short_descr": "You have Naegling's Board, but take # damage.",
+        "gods": [],
+        "duo": false,
+        "icon": "WeaponEnchantment_Shield04",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "BonusCollisionTrait": {
+        "internal": "BonusCollisionTrait",
+        "name": "Typhoon's Fury",
+        "short_descr": "You deal more damage when slamming foes into barriers.",
+        "gods": [
+            "Poseidon"
+        ],
+        "duo": false,
+        "icon": "Boon_Poseidon_05",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "OneOf",
+        "prereq_data": [
+            "PoseidonRangedTrait",
+            "PoseidonRushTrait",
+            "PoseidonSecondaryTrait",
+            "PoseidonShoutTrait",
+            "PoseidonWeaponTrait"
+        ],
+        "nonorm_prereq_data": [
+            "PoseidonRangedTrait",
+            "PoseidonRushTrait",
+            "PoseidonSecondaryTrait",
+            "PoseidonShoutTrait",
+            "PoseidonWeaponTrait",
+            "ShieldLoadAmmo_PoseidonRangedTrait"
+        ],
+        "exclusive_with": []
+    },
+    "ZeusShoutTrait": {
+        "internal": "ZeusShoutTrait",
+        "name": "Zeus' Aid",
+        "short_descr": "Your Call makes lightning rapidly strike nearby foes for # Sec.",
+        "gods": [
+            "Zeus"
+        ],
+        "duo": false,
+        "icon": "Boon_Zeus_07",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "AresShoutTrait": {
+        "internal": "AresShoutTrait",
+        "name": "Ares' Aid",
+        "short_descr": "Your Call turns you into an Impervious Blade Rift for # Sec.",
+        "gods": [
+            "Ares"
+        ],
+        "duo": false,
+        "icon": "Boon_Ares_04",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    },
+    "BonusDashTrait": {
+        "internal": "BonusDashTrait",
+        "name": "Greatest Reflex",
+        "short_descr": "You can Dash more times in a row.",
+        "gods": [
+            "Hermes"
+        ],
+        "duo": false,
+        "icon": "Boon_Hermes_01",
+        "legendary": false,
+        "extra_req": null,
+        "prereq_type": "None",
+        "prereq_data": [],
+        "nonorm_prereq_data": [],
+        "exclusive_with": []
+    }
+}
